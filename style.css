@@ -6,10 +6,38 @@ body{
 }
 .header{
     display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 0 150px;
+
+}
+
+.top{
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
+}
 
+.about{
+    display: flex;
+    padding: 100px 0;
+    gap: 20px;
+}
+
+.context{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex:1;
+}
+
+.img{
+    color: white;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 a{
@@ -25,5 +53,26 @@ ul{
 
 .logo{
     font-size: 24px;
+    color: #f9faf8;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 25px;
+}
+
+.main{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary{
+    font-size: 18px;
     color: #f9faf8;
 }
