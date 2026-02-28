@@ -146,7 +146,7 @@ button{
 }
 
 .call-container{
-    padding: 60px 130px;
+    padding: 80px 130px;
 }
 
 
@@ -179,4 +179,13 @@ button{
 
 .call-to button{
     border: 2px solid white;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  20px 0;
 }
